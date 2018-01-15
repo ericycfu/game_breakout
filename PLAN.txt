@@ -1,15 +1,15 @@
-#Game Project Plan
+Game Project Plan
 
-####Interesting variant and what was interesting
- I 
-thought the original Arkanoid was very interesting because of how certain powerups would drop 
+Interesting variant and what was interesting
+ 
+I thought the original Arkanoid was very interesting because of how certain powerups would drop 
 when the blocks were destroyed. This allowed for a lot of variation in the gameplay; for example,
 the paddle at the bottom could increase in width or fire projectiles. Also, there a powerup could
 spawn multiple balls or give extra lives. Another concept of I liked was how certain blocks could 
 not be broken until others had been destroyed. For example, you had to destroy all the blocks of a 
 specific color or blocks in a layer until other blocks could be destroyed
 
-####general description of different levels to build
+general description of different levels to build
 
 The first level should be the same as the original breakout game. You start with three lives and
 all the blocks are the same. 
@@ -20,15 +20,37 @@ in a row must be destroyed before the blue blocks can be destroyed.
 The third level will have blocks in a u shape, where each layer of blocks on the inside of the u
 need to be destroyed first before the next outer layer.
 
-The fourth level will have 
+The fourth level will have two sets of rectangular blocks that are separated vertically from each
+other. In the space between the blocks, there will be a set of unbreakable blocks on the sides 
+so that the ball must pass through the middle. Only after the first two sets are broken can the 
+blocks on the side be destroyed
 
-#### Different blocks created
+During each level, the ball speed will be increased by 10% and the paddle size will decrease by 10%.
+
+Different blocks created
+
+1. Destroys the blocks adjacent to it (not diagonal)
+2. drops a random powerup
+3. Takes more than one hit to destroy
+4. provides one extra life
+5. Provides x2 score (score for later blocks is more than score for beginning blocks)
 
 
-#### Different powerups created
+Different powerups created
 
+1. Increases paddle size for x bounces
+2. Adds another ball
+3. Allows the ball to destroy two blocks before bouncing back
 
-####Different cheat keys to include
+Different cheat keys to include
 
+1. Unlimited lives
+2. Ball cannot disappear (it will bounce off the floor)
+3. Clear the current level and move onto next
+4. Teleport to a specific level
 
-####Extra thing added
+Extra thing added
+
+There will be a hole where objects can come out and float around. They will make the ball bounce
+off of them, and will be destroyed when they are hit. 
+
