@@ -1,0 +1,34 @@
+#Game Project Plan
+
+####Interesting variant and what was interesting
+ I 
+thought the original Arkanoid was very interesting because of how certain powerups would drop 
+when the blocks were destroyed. This allowed for a lot of variation in the gameplay; for example,
+the paddle at the bottom could increase in width or fire projectiles. Also, there a powerup could
+spawn multiple balls or give extra lives. Another concept of I liked was how certain blocks could 
+not be broken until others had been destroyed. For example, you had to destroy all the blocks of a 
+specific color or blocks in a layer until other blocks could be destroyed
+
+####general description of different levels to build
+
+The first level should be the same as the original breakout game. You start with three lives and
+all the blocks are the same. 
+
+The second level will have alternating blocks in each row, colored red and blue. The red blocks
+in a row must be destroyed before the blue blocks can be destroyed. 
+
+The third level will have blocks in a u shape, where each layer of blocks on the inside of the u
+need to be destroyed first before the next outer layer.
+
+The fourth level will have 
+
+#### Different blocks created
+
+
+#### Different powerups created
+
+
+####Different cheat keys to include
+
+
+####Extra thing added
