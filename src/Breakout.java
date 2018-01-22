@@ -129,7 +129,7 @@ public class Breakout extends Application {
     	if (myLives == 0) {
     		gameOver();
     	}
-    	if (LEVEL == 5) {
+    	if (LEVEL == 3) {
     		winLevel();
     		myText.setText("You have beat the game!");
     	}
@@ -250,6 +250,8 @@ public class Breakout extends Application {
     	myLivesText.setText(null);
     	LEVEL+= 1;
     	createBlocks();
+    	//to move onto next level, doesnt work
+    	//myScene = setupGame(SIZE, SIZE, BACKGROUND);
     }
     
     
@@ -283,7 +285,6 @@ public class Breakout extends Application {
     	switch(LEVEL) {
     	case 1: return levelOneBlocks();
     	case 2: return levelTwoBlocks();
-    	case 3: return levelThreeBlocks();
     	default: return levelOneBlocks();
     	}
     	
@@ -337,14 +338,6 @@ public class Breakout extends Application {
     	return Collections.min(rows);
     }
     
-    private ArrayList<Block> levelThreeBlocks(){
-    	
-    	return null;
-    }
-    
-    private ArrayList<Block> levelFourBlocks(){
-    	return null;
-    }
     
     private void specialBlock(Block block) {
     	Random rand = new Random();
@@ -427,7 +420,9 @@ public class Breakout extends Application {
         	}
         	myText.setText(null);
         }
+        //to reset game, doesn't work
         if (code == KeyCode.K) {
+        	//myScene = setupGame(SIZE, SIZE, BACKGROUND);
         	/*myLives = 3;
         	resetPaddle();
         	resetBouncer();
